@@ -44,9 +44,10 @@ class CardCollection {
     
     private init(){
         
-        cards = [ Flashcard(question: "Sam plays basketball.", options: ["False","True"]),
+        cards = [ Flashcard(question: "Sam likes soda.", options: ["False","True"]),
                   Flashcard(question: "Which does Sam not play?", options:["Guitar ", "Violin", "Piano", "Tennis"]),
-                  Flashcard(question: "Where does Sam live", options:["East Rockaway, NY", "Los Angeles, CA", "Newport, RI"])]
+                  Flashcard(question: "Where does Sam live?", options:["East Rockaway, NY", "Los Angeles, CA", "Newport, RI"]),
+                  Flashcard(question: "How many siblings does Sam have?", options:["2", "3", "0", "1"])]
         
         currentIndex = 0;
         
