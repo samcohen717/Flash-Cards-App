@@ -44,9 +44,9 @@ class CardCollection {
     
     private init(){
         
-        cards = [ Flashcard(question: "Test Question", options: ["True","False"]),
-                  Flashcard(question: "What's the capitol of Washington state?", options:["Olympia", "Tacoma", "Seattle", "Spokane"]),
-                  Flashcard(question: "Where is iD Tech's headquarters?", options:["Campbell, CA", "Albequerque, NM", "Beijing, CN"])]
+        cards = [ Flashcard(question: "Sam plays basketball.", options: ["False","True"]),
+                  Flashcard(question: "Which does Sam not play?", options:["Guitar ", "Violin", "Piano", "Tennis"]),
+                  Flashcard(question: "Where does Sam live", options:["East Rockaway, NY", "Los Angeles, CA", "Newport, RI"])]
         
         currentIndex = 0;
         
