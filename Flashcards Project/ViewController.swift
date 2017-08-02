@@ -62,6 +62,14 @@ class ViewController: UIViewController, UIPickerViewDataSource,UIPickerViewDeleg
         alert.addAction(UIAlertAction(title: "Yay!", style: UIAlertActionStyle.default, handler: nil))
         self.present(alert, animated: true)
         }
+        else {
+            // answer incorrect
+            // expand to check finished code.
+            alert = UIAlertController(title: "Incorrect", message: "Incorrect Answer.", preferredStyle: UIAlertControllerStyle.alert)
+            alert.addAction(UIAlertAction(title: "Aww.", style: UIAlertActionStyle.default, handler: nil))
+            self.present(alert, animated: true)
+            
+        }
     }
 
     
